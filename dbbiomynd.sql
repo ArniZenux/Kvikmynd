@@ -1,0 +1,11 @@
+CREATE TABLE tblBiomynd (
+Id 	INT AUTO_INCREMENT PRIMARY KEY,
+Title VARCHAR(32),
+Actor VARCHAR(32),
+Director VARCHAR(32),
+Year	VARCHAR(4),
+Subtitle VARCHAR(10),
+Tegund VARCHAR(10),
+Name VARCHAR(45),
+Image LONGBLOG
+) 
