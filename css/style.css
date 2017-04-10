@@ -1,0 +1,59 @@
+.reg-page {
+		text-align: center;
+
+	color: #555;
+	padding: 20px;
+	background: #fefefe;
+	border: solid 1px #eee;
+	box-shadow: 0 2 3px #eee;
+}
+
+.reg-header{
+	color: #555;
+	text-align: center;
+	margin-bottom: 25px;
+	border-bottom: solid 1px #eee;
+}
+
+.margin-bottom-20{
+	margin-bottom: 20px;
+}
+
+.mynd{
+    float:left;
+    position: relative;  
+}
+
+.image{
+    display: block; 
+    padding: 1px;
+    width: 300px;
+    height: 440px; 
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0; 
+    transition: .5s ease;
+    background-color: white;
+}
+
+.mynd:hover .overlay{
+    opacity: 0.9;
+}
+                            
+.text{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: black;
+    font-size: 13px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
